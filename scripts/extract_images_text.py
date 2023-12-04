@@ -298,3 +298,9 @@ def pdf_image_extract(pdf_path, images_dir):
 
 # Make sure to replace with your actual paths
 pdf_image_extract('../Validated-Avatar-Library-for-Inclusion-and-Diversity---VALID/All Models.pdf', 'images')
+
+# avatars/X_Non-validated/X_AIAN_F_2_Casual.glb doesn't exist
+# avatars/X_Non-validated/X_AIAN_F_2_Busi.glb doesn't exist
+# avatars/X_Non-validated/X_AIAN_F_2_Medi.glb doesn't exist
+# avatars/X_Non-validated/X_AIAN_F_2_Milit.glb doesn't exist
+# avatars/X_Non-validated/X_AIAN_F_2_Util.glb doesn't exist
