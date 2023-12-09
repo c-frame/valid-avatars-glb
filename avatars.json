@@ -1755,6 +1755,15 @@
     "outfit": "Util"
   },
   {
+    "text": "X_NHPI_M_1_Util",
+    "image": "images/X_NHPI_M_1_Util.jpg",
+    "model": "avatars/X_Non-validated/X_NHPI_M_1_Util.glb",
+    "ethnicity": "X_NHPI",
+    "gender": "M",
+    "num": "1",
+    "outfit": "Util"
+  },
+  {
     "text": "X_NHPI_F_3_Casual",
     "image": "images/X_NHPI_F_3_Casual.jpg",
     "model": "avatars/X_Non-validated/X_NHPI_F_3_Casual.glb",
@@ -1834,14 +1843,5 @@
     "gender": "M",
     "num": "1",
     "outfit": "Milit"
-  },
-  {
-    "text": "X_NHPI_M_1_Util",
-    "image": "images/X_NHPI_M_1_Util.jpg",
-    "model": "avatars/X_Non-validated/X_NHPI_M_1_Util.glb",
-    "ethnicity": "X_NHPI",
-    "gender": "M",
-    "num": "1",
-    "outfit": "Util"
   }
 ]

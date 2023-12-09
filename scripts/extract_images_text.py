@@ -228,6 +228,20 @@ images_xref_order = [
 205,
 ]
 
+# the sort of texts doesn't work on page 9
+xref2text = {
+200: "X_NHPI_F_3_Casual",
+201: "X_NHPI_F_3_Busi",
+202: "X_NHPI_F_3_Medi",
+203: "X_NHPI_F_3_Milit",
+204: "X_NHPI_F_3_Util",
+196: "X_NHPI_M_1_Casual",
+197: "X_NHPI_M_1_Busi",
+198: "X_NHPI_M_1_Medi",
+199: "X_NHPI_M_1_Milit",
+205: "X_NHPI_M_1_Util",
+}
+
 def pdf_image_extract(pdf_path, images_dir):
     doc = fitz.open(pdf_path)
     data = []
@@ -257,12 +271,15 @@ def pdf_image_extract(pdf_path, images_dir):
 #            image = Image.open(io.BytesIO(img_data_bytes))
 
             # Get the closest text block below this image
-            closest_block = blocks.pop(0)
+            if i == 8:
+                base = xref2text.get(xref)
+            else:
+                closest_block = blocks.pop(0)
+                base = closest_block[4].strip().replace('Mena', 'MENA').replace('x_', 'X_')
+                if base == 'MENA_1_Casual':
+                    base = 'MENA_M_1_Casual'
 
             # Save the image data to a JPEG file
-            base = closest_block[4].strip().replace('Mena', 'MENA').replace('x_', 'X_')
-            if base == 'MENA_1_Casual':
-                base = 'MENA_M_1_Casual'
 #            filename = base + img_data["ext"]
             filename = base + ".jpg"
             os.makedirs(images_dir, exist_ok=True)
