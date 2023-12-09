@@ -25,3 +25,5 @@ const fetchAvatars = async () => {
 };
 fetchAvatars()
 ```
+
+For a demo of using those avatars with networked-aframe, [see this repo](https://github.com/networked-aframe/naf-valid-avatars).
