@@ -275,11 +275,15 @@ def pdf_image_extract(pdf_path, images_dir):
                 base = xref2text.get(xref)
             else:
                 closest_block = blocks.pop(0)
-                base = closest_block[4].strip().replace('Mena', 'MENA').replace('x_', 'X_')
+                base = closest_block[4].strip().replace('x_', 'X_')
                 if base == 'MENA_1_Casual':
                     base = 'MENA_M_1_Casual'
                 if base.startswith('X_AIAN_F_2'):
                     base = base.replace('X_AIAN_F_2', 'X_AIAN_F_1')
+                if base.startswith('Mena_M_2'):
+                    base = base.replace('Mena_M_2', 'Hispanic_F_2')
+                if base.startswith('Mena_M_3'):
+                    base = base.replace('Mena_M_3', 'Hispanic_F_3')
 
             # Save the image data to a JPEG file
 #            filename = base + img_data["ext"]
