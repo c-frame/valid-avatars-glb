@@ -1620,6 +1620,51 @@
     "outfit": "Util"
   },
   {
+    "text": "X_AIAN_F_1_Casual",
+    "image": "images/X_AIAN_F_1_Casual.jpg",
+    "model": "avatars/X_Non-validated/X_AIAN_F_1_Casual.glb",
+    "ethnicity": "X_AIAN",
+    "gender": "F",
+    "num": "1",
+    "outfit": "Casual"
+  },
+  {
+    "text": "X_AIAN_F_1_Busi",
+    "image": "images/X_AIAN_F_1_Busi.jpg",
+    "model": "avatars/X_Non-validated/X_AIAN_F_1_Busi.glb",
+    "ethnicity": "X_AIAN",
+    "gender": "F",
+    "num": "1",
+    "outfit": "Busi"
+  },
+  {
+    "text": "X_AIAN_F_1_Medi",
+    "image": "images/X_AIAN_F_1_Medi.jpg",
+    "model": "avatars/X_Non-validated/X_AIAN_F_1_Medi.glb",
+    "ethnicity": "X_AIAN",
+    "gender": "F",
+    "num": "1",
+    "outfit": "Medi"
+  },
+  {
+    "text": "X_AIAN_F_1_Milit",
+    "image": "images/X_AIAN_F_1_Milit.jpg",
+    "model": "avatars/X_Non-validated/X_AIAN_F_1_Milit.glb",
+    "ethnicity": "X_AIAN",
+    "gender": "F",
+    "num": "1",
+    "outfit": "Milit"
+  },
+  {
+    "text": "X_AIAN_F_1_Util",
+    "image": "images/X_AIAN_F_1_Util.jpg",
+    "model": "avatars/X_Non-validated/X_AIAN_F_1_Util.glb",
+    "ethnicity": "X_AIAN",
+    "gender": "F",
+    "num": "1",
+    "outfit": "Util"
+  },
+  {
     "text": "X_MENA_F_1_Casual",
     "image": "images/X_MENA_F_1_Casual.jpg",
     "model": "avatars/X_Non-validated/X_MENA_F_1_Casual.glb",

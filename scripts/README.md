@@ -2,6 +2,9 @@ Download all fbx avatars:
 ```sh
 cd ~
 git clone git@github.com:xrtlab/Validated-Avatar-Library-for-Inclusion-and-Diversity---VALID.git
+cd Validated-Avatar-Library-for-Inclusion-and-Diversity---VALID
+git checkout b3f8a0dd9e6102d63df181f56cf1a616aaeb9b12
+# This is to read the previous pdf version
 ```
 
 In this repo:

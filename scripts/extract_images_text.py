@@ -278,6 +278,8 @@ def pdf_image_extract(pdf_path, images_dir):
                 base = closest_block[4].strip().replace('Mena', 'MENA').replace('x_', 'X_')
                 if base == 'MENA_1_Casual':
                     base = 'MENA_M_1_Casual'
+                if base.startswith('X_AIAN_F_2'):
+                    base = base.replace('X_AIAN_F_2', 'X_AIAN_F_1')
 
             # Save the image data to a JPEG file
 #            filename = base + img_data["ext"]
