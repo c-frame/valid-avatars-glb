@@ -9,7 +9,7 @@ You can use this repo directly from the CDN jsdelivr to create a UI to select an
 Example of code to download the list of avatars, create the image url and model url to download them:
 
 ```js
-const avatarsBaseUrl = 'https://cdn.jsdelivr.net/gh/c-frame/valid-avatars-glb@f8dee64/';
+const avatarsBaseUrl = 'https://cdn.jsdelivr.net/gh/c-frame/valid-avatars-glb@c539a28/';
 const fetchAvatars = async () => {
   const response = await fetch(avatarsBaseUrl + 'avatars.json');
   if (!response.ok) {
